@@ -1,0 +1,3 @@
+#!/bin/sh
+cd $(dirname $0)/indra/viewer-linux-i686-release/newview/packaged
+exec ./Runme-kirstens-S21

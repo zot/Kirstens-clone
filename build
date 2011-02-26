@@ -1,0 +1,3 @@
+#!/bin/sh
+cd $(dirname $0)/indra
+python develop.py -t Release cmake &&  python develop.py -t Release build

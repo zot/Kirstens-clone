@@ -70,6 +70,7 @@ if (VIEWER)
   add_subdirectory(${LIBS_OPEN_PREFIX}llui)
   add_subdirectory(${LIBS_OPEN_PREFIX}llxuixml)
   add_subdirectory(${LIBS_OPEN_PREFIX}viewer_components)
+  add_subdirectory(${LIBS_OPEN_PREFIX}plexus)
 
   # viewer media plugins
   add_subdirectory(${LIBS_OPEN_PREFIX}media_plugins)
