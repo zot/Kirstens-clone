@@ -1,0 +1,4 @@
+This is a modified version of openal-soft from GIT (3ad86a1c1b592579514d07495f5feac97c3a8131).
+The modified source which this was built from is available here:
+http://viewer-source-downloads.s3.amazonaws.com/install_pkgs/openal-soft-linden-3ad86a1c1b592579514d07495f5feac97c3a8131.tar.bz2
+

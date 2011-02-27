@@ -1,1 +1,14 @@
 .svn
+*.o
+*.a
+*.so
+*.so.*
+*.la
+*.pyc
+CMakeFiles
+/indra/viewer-linux-i686-release
+/indra/newview/vivox-runtime/i686-linux
+/libraries
+SLVoice
+dump_syms
+installed.xml
