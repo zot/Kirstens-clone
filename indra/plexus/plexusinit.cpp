@@ -5,13 +5,19 @@
  *      Author: bill
  */
 
-#include <stdio.h>
+#include "llerror.h"
 #include "plexusinit.h"
 
-void beep() {
-	printf("BEEP\n");
+static void bp() {
+  LL_INFOS("InitInfo")  << "BEEP\n" << LL_ENDL;
 }
 
-namespace plexus {
+void plexusbeep() {
+  bp();
+}
 
-};
+void plexus::init() {
+  LL_INFOS("InitInfo") << "INTERNAL INIT PLEXUS" << LL_ENDL;
+  LL_INFOS("InitInfo") << "INTERNAL INIT PLEXUS" << LL_ENDL;
+  LL_INFOS("InitInfo") << "INTERNAL INIT PLEXUS" << LL_ENDL;
+}

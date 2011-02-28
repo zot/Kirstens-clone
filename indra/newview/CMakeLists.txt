@@ -43,6 +43,7 @@ include(ViewerMiscLibs)
 include(LLLogin)
 include(GLOD)
 include(CMakeCopyIfDifferent)
+include(PLEXUS)
 
 include_directories(
     ${DBUSGLIB_INCLUDE_DIRS}
@@ -70,6 +71,7 @@ include_directories(
     ${LLLOGIN_INCLUDE_DIRS}
     ${LIBS_PREBUILT_DIR}/include/collada
     ${LIBS_PREBUILT_DIR}/include/collada/1.4
+    ${PLEXUS_INCLUDE_DIRS}
     )
 
 set(viewer_SOURCE_FILES
@@ -1735,6 +1737,7 @@ target_link_libraries(${VIEWER_BINARY_NAME}
     ${LLLOGIN_LIBRARIES}
     ${LLCONVEXDECOMP_LIBRARY}
     ${TCMALLOC_LIBRARIES}
+    ${PLEXUS_LIBRARIES}
     )
 
 build_version(viewer)

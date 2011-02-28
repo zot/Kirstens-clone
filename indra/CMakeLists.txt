@@ -52,6 +52,7 @@ add_subdirectory(${LIBS_OPEN_PREFIX}llrender)
 add_subdirectory(${LIBS_OPEN_PREFIX}llvfs)
 add_subdirectory(${LIBS_OPEN_PREFIX}llwindow)
 add_subdirectory(${LIBS_OPEN_PREFIX}llxml)
+add_subdirectory(${LIBS_OPEN_PREFIX}plexus)
 
 if (EXISTS ${LIBS_CLOSED_DIR}llkdu)
   add_subdirectory(${LIBS_CLOSED_PREFIX}llkdu)
@@ -70,7 +71,6 @@ if (VIEWER)
   add_subdirectory(${LIBS_OPEN_PREFIX}llui)
   add_subdirectory(${LIBS_OPEN_PREFIX}llxuixml)
   add_subdirectory(${LIBS_OPEN_PREFIX}viewer_components)
-  add_subdirectory(${LIBS_OPEN_PREFIX}plexus)
 
   # viewer media plugins
   add_subdirectory(${LIBS_OPEN_PREFIX}media_plugins)

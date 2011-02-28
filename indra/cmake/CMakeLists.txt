@@ -80,6 +80,7 @@ set(cmake_SOURCE_FILES
     Variables.cmake
     XmlRpcEpi.cmake
     ZLIB.cmake
+    PLEXUS.cmake
     )
 
 source_group("Shared Rules" FILES ${cmake_SOURCE_FILES})

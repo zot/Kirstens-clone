@@ -227,6 +227,10 @@
 #pragma warning (disable:4702)
 #endif
 
+#ifdef PLEXUS
+#include "plexusinit.h"
+#endif
+
 static LLAppViewerListener sAppViewerListener(LLAppViewer::instance);
 
 ////// Windows-specific includes to the bottom - nasty defines in these pollute the preprocessor
@@ -997,6 +1001,9 @@ bool LLAppViewer::init()
 	LLAgentLanguage::init();
 
 
+#ifdef PLEXUS
+	plexus::init();
+#endif
 
 	return true;
 }

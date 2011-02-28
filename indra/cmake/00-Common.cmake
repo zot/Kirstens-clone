@@ -33,6 +33,9 @@ set(CMAKE_CONFIGURATION_TYPES "RelWithDebInfo;Release;Debug" CACHE STRING
 # Platform-specific compilation flags.
 
 if (WINDOWS)
+  # activate Plexus mods
+  add_definitions(/DPLEXUS)
+
   # Don't build DLLs.
   set(BUILD_SHARED_LIBS OFF)
 
@@ -223,6 +226,9 @@ endif (DARWIN)
 
 
 if (LINUX OR DARWIN)
+  # activate Plexus mods
+  add_definitions(-DPLEXUS)
+
   set(GCC_WARNINGS "-Wall -Wno-sign-compare -Wno-trigraphs")
 
   if (NOT GCC_DISABLE_FATAL_WARNINGS)

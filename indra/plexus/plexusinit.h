@@ -9,11 +9,11 @@
 #define PLEXUSINIT_H_
 
 extern "C" {
-	void plexusbeep();
+  void plexusbeep();
 }
 
 namespace plexus {
-	void init();
-};
+  void init();
+}
 
 #endif /* PLEXUSINIT_H_ */

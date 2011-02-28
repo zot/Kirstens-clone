@@ -2,6 +2,13 @@
 
 project(plexus)
 
+include(00-Common)
+include(LLCommon)
+
+include_directories(
+    ${LLCOMMON_INCLUDE_DIRS}
+    )
+
 set(plexus_SOURCE_FILES
     plexusinit.cpp
     )
@@ -26,4 +33,3 @@ endif(NOT WORD_SIZE EQUAL 32)
 list(APPEND plexus_SOURCE_FILES ${plexus_HEADER_FILES})
 
 add_library (plexus ${plexus_SOURCE_FILES})
-
