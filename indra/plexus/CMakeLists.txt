@@ -7,6 +7,7 @@ include(LLCommon)
 
 include_directories(
     ${LLCOMMON_INCLUDE_DIRS}
+    luajit-2.0/include
     )
 
 set(plexus_SOURCE_FILES

@@ -1696,6 +1696,8 @@ if (WINDOWS)
     endif (PACKAGE)
 endif (WINDOWS)
 
+find_library (LUA_LIBRARY luajit /home/bill/work2/Kirstensviewer-S21/indra/plexus/luajit-2.0/lib)
+
 target_link_libraries(${VIEWER_BINARY_NAME}
 	${GOOGLE_PERFTOOLS_LIBRARIES}
     ${LLAUDIO_LIBRARIES}
@@ -1738,6 +1740,7 @@ target_link_libraries(${VIEWER_BINARY_NAME}
     ${LLCONVEXDECOMP_LIBRARY}
     ${TCMALLOC_LIBRARIES}
     ${PLEXUS_LIBRARIES}
+    ${LUA_LIBRARY}
     )
 
 build_version(viewer)
