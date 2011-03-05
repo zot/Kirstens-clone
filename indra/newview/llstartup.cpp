@@ -191,6 +191,10 @@
 #include "llevents.h"
 #include "llstartuplistener.h"
 
+#ifdef PLEXUS
+#include "plexusinit.h"
+#endif
+
 #if LL_WINDOWS
 #include "lldxhardware.h"
 #endif
@@ -771,13 +775,17 @@ bool idle_startup()
 		if (gLoginMenuBarView == NULL)
 		{
 			init_menus();
+#ifdef PLEXUS
+			plexus::init();
+#endif
 		}
 		
 		gViewerWindow->setNormalControlsVisible( FALSE );	
 		gLoginMenuBarView->setVisible( TRUE );
 		gLoginMenuBarView->setEnabled( TRUE );
 
-		// Hide the splash screen
+
+	// Hide the splash screen
 		LLSplashScreen::hide();
 
 		// Push our window frontmost

@@ -14,6 +14,7 @@ extern "C" {
 
 namespace plexus {
   void init();
+  void init_menus();
 }
 
 #endif /* PLEXUSINIT_H_ */

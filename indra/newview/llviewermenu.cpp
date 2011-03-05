@@ -105,6 +105,9 @@
 #include "lltrans.h"
 #include "lleconomy.h"
 #include "boost/unordered_map.hpp"
+#ifdef PLEXUS
+#include "plexusinit.h"
+#endif
 
 using namespace LLVOAvatarDefines;
 
@@ -367,6 +370,9 @@ void init_menus()
 
 	// Initialize actions
 	initialize_menus();
+#ifdef PLEXUS
+	plexus::init_menus();
+#endif
 
 	///
 	/// Popup menu

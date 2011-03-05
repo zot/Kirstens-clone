@@ -50,6 +50,12 @@
         <menu_item_separator/>
 
         <menu_item_call
+         label="Test Lua"
+         name="TestLua">
+            <menu_item_call.on_click
+             function="TestLua" />
+        </menu_item_call>
+        <menu_item_call
          label="My Profile"
          name="Profile">
             <menu_item_call.on_click
