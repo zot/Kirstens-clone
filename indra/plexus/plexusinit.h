@@ -8,13 +8,11 @@
 #ifndef PLEXUSINIT_H_
 #define PLEXUSINIT_H_
 
-extern "C" {
-  void plexusbeep();
-}
-
 namespace plexus {
   void init();
   void init_menus();
+  void idle();
+  bool remotesend(const char *line);
 }
 
 #endif /* PLEXUSINIT_H_ */

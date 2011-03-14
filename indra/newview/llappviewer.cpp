@@ -108,6 +108,9 @@
 // Third party library includes
 #include <boost/bind.hpp>
 
+#ifdef PLEXUS
+#include "plexusinit.h"
+#endif
 
 #if LL_WINDOWS
 #	include <share.h> // For _SH_DENYWR in initMarkerFile
@@ -4094,6 +4097,11 @@ void LLAppViewer::idle()
 	{
 		gGLActive = TRUE;
 		idleShutdown();
+	}
+	//////////////////////////////////////
+	// Plexus
+	{
+		plexus::idle();
 	}
 }
 

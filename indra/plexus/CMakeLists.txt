@@ -11,6 +11,7 @@ include(LLMath)
 include(LLPrimitive)
 include(LLRender)
 include(LLUI)
+include(LLVFS)
 include(LLWindow)
 include(LLXML)
 include(LLXUIXML)
@@ -26,6 +27,7 @@ include_directories(
     ${LLPRIMITIVE_INCLUDE_DIRS}
     ${LLRENDER_INCLUDE_DIRS}
     ${LLUI_INCLUDE_DIRS}
+    ${LLVFS_INCLUDE_DIRS}
     ${LLWINDOW_INCLUDE_DIRS}
     ${LLXML_INCLUDE_DIRS}
     ${LLXUIXML_INCLUDE_DIRS}
