@@ -16,11 +16,11 @@
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactName="Kirstensviewer-S21" buildProperties="" description="" id="0.937066279" name="Default" parent="org.eclipse.cdt.build.core.prefbase.cfg">
+				<configuration artifactName="Kirstens-clone" buildProperties="" description="" id="0.937066279" name="Default" parent="org.eclipse.cdt.build.core.prefbase.cfg">
 					<folderInfo id="0.937066279." name="/" resourcePath="">
 						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.1748915920" name="No ToolChain" resourceTypeBasedDiscovery="false" superClass="org.eclipse.cdt.build.core.prefbase.toolchain">
 							<targetPlatform id="org.eclipse.cdt.build.core.prefbase.toolchain.1748915920.1301465386" name=""/>
-							<builder autoBuildTarget="plexus/fast" buildPath="${workspace_loc:/Kirstensviewer-S21/indra/viewer-linux-i686-release}" enableAutoBuild="true" id="org.eclipse.cdt.build.core.settings.default.builder.330851461" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="org.eclipse.cdt.build.core.settings.default.builder"/>
+							<builder autoBuildTarget="plexus/fast" buildPath="${workspace_loc:/Kirstens-clone/indra/viewer-linux-i686-release}" enableAutoBuild="true" id="org.eclipse.cdt.build.core.settings.default.builder.330851461" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="org.eclipse.cdt.build.core.settings.default.builder"/>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.375318772" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs"/>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.1349373534" name="Assembly" superClass="org.eclipse.cdt.build.core.settings.holder">
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1795176657" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
@@ -213,6 +213,6 @@
 		</cconfiguration>
 	</storageModule>
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-		<project id="Kirstensviewer-S21.null.52511877" name="Kirstensviewer-S21"/>
+		<project id="Kirstens-clone.null.52511877" name="Kirstens-clone"/>
 	</storageModule>
 </cproject>
